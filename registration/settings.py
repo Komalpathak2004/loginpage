@@ -26,8 +26,7 @@ SECRET_KEY = 'django-insecure--%#4sl@qiw60v&kg@)2ri7$o6z3x=0ii2l-n769o^-gun5mve2
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['medpulseai.onrender.com', '0.0.0.0', 'localhost', '127.0.0.1']
-
+ALLOWED_HOSTS = ['medpulseai.onrender.com', '0.0.0.0']
 
 # Application definition
 
