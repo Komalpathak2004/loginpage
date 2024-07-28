@@ -3,4 +3,4 @@ services:
     name: loginpage
     env: python
     buildCommand: pip install -r requirements.txt
-    startCommand: gunicorn registration.wsgi:application --bind 0.0.0.0:$PORT
+    startCommand: python manage.py runserver 0.0.0.0:$PORT
